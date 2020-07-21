@@ -20,6 +20,7 @@ int main(){
                     if(k == i || k == j) continue;
                     cout << a[k] << '\n';
                 }
+                return 0;   //정답이 여러가지인 경우 하나만 
             }
         }
     }
